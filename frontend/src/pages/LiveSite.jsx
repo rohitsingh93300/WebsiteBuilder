@@ -6,7 +6,7 @@ const LiveSite = () => {
     const [html, setHtml] = useState("")
     const [error, setError] = useState("")
     const { id } = useParams()
-
+     console.log(id)
     useEffect(() => {
         const handleGetWebsite = async () => {
             try {
