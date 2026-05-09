@@ -334,6 +334,7 @@ export const getBySlug = async(req, res)=>{
     const website = await Website.findOne({
       slug:req.params.slug
     })
+     console.log(req.params)
     if(!website){
       return res.status(400).json({message:"Website not found"})
     }
