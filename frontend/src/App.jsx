@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Pricing from './pages/Pricing'
 import Dashboard from './pages/Dashboard'
 import Generate from './pages/Generate'
-import WebsiteEditor from './pages/websiteEditor'
+import WebsiteEditor from './pages/WebsiteEditor'
 import LiveSite from './pages/LiveSite'
 
 const App = () => {
